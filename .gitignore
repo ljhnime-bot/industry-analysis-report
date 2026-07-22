@@ -1,0 +1,29 @@
+# === 비밀정보 ===
+.env
+.env.*
+*.key
+
+# === 데이터 / 산출물 (대용량, 리포지토리에 불필요) ===
+*.xlsx
+*.pdf
+*.zip
+docs_cache/
+
+# === 구버전 HTML 스냅샷 (정식 파일은 '이게 찐 index.html' 하나) ===
+427 12시 버전 index.html
+산업분석_리포트_생성기.html
+산업분석_리포트_생성기_v2.html
+산업분析_리포트_생성기_v2.html
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pkl
+
+# === Node / Vercel ===
+node_modules/
+.vercel/
+
+# === OS ===
+Thumbs.db
+.DS_Store
