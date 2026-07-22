@@ -24,6 +24,11 @@ __pycache__/
 node_modules/
 .vercel/
 
+# === 루트에 흩어진 원본 캡처 (정리본은 assets/ 에만 둠) ===
+# 선행 '/' 로 루트에만 적용 — assets/ 안의 이미지는 제외되지 않도록
+/스크린샷*.png
+/Screenshot*.png
+
 # === OS ===
 Thumbs.db
 .DS_Store
